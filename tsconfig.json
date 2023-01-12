@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-native",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "src/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@container/*": [
+        "src/container/*"
+      ],
+      "@elements/*": [
+        "src/elements/*"
+      ],
+      "@configs/*": [
+        "src/configs/*"
+      ],
+      "@navigation/*": [
+        "src/navigation/*"
+      ],
+      "@hooks/*": [
+        "./src/hooks/*"
+      ],
+      "@svg/*": [
+        "./src/svg/*"
+      ],
+      "@images/*": [
+        "src/images/*"
+      ],
+      "@configs": [
+        "src/configs/index"
+      ],
+      "@store/*": [
+        "src/store/*"
+      ],
+      "react-native-redash/lib/module/v1": [
+        "./node_modules/react-native-redash/lib/typescript/v1/index.d.ts"
+      ]
+    }
+  },
+  "extends": "expo/tsconfig.base"
+}

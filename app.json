@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Patient Plus",
+    "slug": "expo_patient_plus",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hienn2006.rndoctorplus"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.hienn2006.rndoctorplus"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "description": "",
+    "githubUrl": "https://github.com/dinhhien2006/rn-doctor-plus/tree/master",
+    "extra": {
+      "eas": {
+        "projectId": "f3fcd7fd-0a10-4627-a42d-acb51d27e754"
+      }
+    }
+  }
+}
